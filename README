@@ -1,0 +1,15 @@
+1) Full Name: Po-Hsien Lin
+2) Student ID: 4749464871
+3) What I have done in the assignment: Implement two servers using UDP and one client using TCP through one mainserver by socket programming 
+4) What my code files are and what each one of them does. 
+- servermain.cpp: pass message between server and client
+- serverA.cpp: store the information in dataA.txt, wait for servermain processes, and reply the recommendation information
+- serverB.cpp: store the information in dataB.txt, wait for servermain processes, and reply the recommendation information
+- client.cpp: ask the user to input a country name and user id
+5) The format of all the messages exchanged
+- a file descriptor sockfd which is created after socket function
+- message content
+- length of the message
+- flags, which is set to zero
+6) No
+7) Reused Code: most the the code in the project is modified from Beej’s Guide to Network Programming
